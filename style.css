@@ -1,0 +1,369 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #9dd5d4;
+}
+
+header {
+    background-image: url(water9.jpg);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 3rem;
+}
+
+nav {
+    background-color: #333;
+    color: #ecf0f1;
+    padding: 1.5rem;
+    text-align: center;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    box-shadow: 1.5rem 1.5rem 1.5rem grey;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    margin: 0 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+}
+
+nav a:hover{
+    font-size: 1.8rem;
+    /* border-bottom: 2px solid orangered; */
+    color: orangered;
+    transition: linear .4s;
+}
+
+.btn{
+    background-color: orangered;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    color: #ecf0f1;
+    padding: 1rem;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: linear .3s;
+}
+#home h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    color: blue;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid black;
+    font-size: 2.5rem;
+}
+
+#home p{
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.8rem;
+    border: 0.2rem solid white;
+    background-color: white;
+    border-radius: 1.2rem;
+    text-align: center;
+  padding: 3.6rem;
+}
+
+#home img{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+    margin-left: 4.5rem;
+    width: 145.1rem;
+    height: 63rem;
+    border-radius: 2rem;
+}
+
+#benifits p{
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.8rem;
+    border: 0.2rem solid white;
+    background-color: white;
+    border-radius: 1.2rem;
+    text-align: center;
+  padding: 3.6rem;
+}
+
+#benifits h1{
+        font-size: 2.6rem;
+        color: #000;
+    font-family: 'Poppins';
+        font-weight: 500;
+        background: #fff;
+        width: auto;
+        line-height: 1;
+        text-align: center;
+        margin: 5rem 0 3rem 0;
+        padding: 1rem;
+        border-left: 0.3rem solid #52009B;
+        border-right: 0.3rem solid #52009B;
+        border-bottom: 0.3rem solid #52009B;
+        border-top: 0.3rem solid #52009B;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#benifits img{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+    margin-left: 4.5rem;
+    width: 145.1rem;
+    height: 55rem;
+    border-radius: 2rem;
+}
+
+#benifits h2{
+    font-size: 2.6rem;
+        color: #000;
+    font-family: 'Poppins';
+        font-weight: 500;
+        background: #fff;
+        width: auto;
+        line-height: 1;
+        text-align: center;
+        margin: 5rem 0 3rem 0;
+        padding: 1rem;
+        border: 0.3rem solid rgb(133, 0, 0);
+        border-radius: 1.8rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0rem 2rem 2.5rem -0.5rem, rgba(0, 0, 0, 0.04) 0rem 1rem 1rem -0.5rem;
+}
+
+#benifits .box2 p{
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.8rem;
+    border: 0.2rem solid white;
+    background-color: white;
+    border-radius: 1.2rem;
+    text-align: center;
+  padding: 3.6rem;
+
+} 
+
+#benifits .box3 p{
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.8rem; 
+    border: 0.2rem solid white;
+    background-color: white;
+    border-radius: 1.2rem;
+    text-align: center;
+  padding: 3.6rem;
+} 
+
+#benifits .box4 p{
+    display: flex;
+    align-items: center;
+    margin-top: 1.7rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.8rem; 
+    border: 0.2rem solid white;
+    background-color: white;
+    border-radius: 1.2rem;
+    text-align: center;
+  padding: 3.6rem;
+} 
+
+#benifits .box5 p{
+    display: flex;
+    align-items: center;
+    margin-top: 1.7rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.8rem; 
+    border: 0.2 solid white;
+    background-color: white;
+    border-radius: 1.2rem;
+    text-align: center;
+  padding: 3.6rem;
+} 
+
+#benifits .box6 p{
+    display: flex;
+    align-items: center;
+    margin-top: 1.7rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.8rem;
+    border: 0.2rem solid white;
+    background-color: white;
+    border-radius: 1.2rem;
+    text-align: center;
+  padding: 3.6rem;
+} 
+
+#benifits .box7 p{
+    display: flex;
+    align-items: center;
+    margin-top: 1.7rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.8rem; 
+    border: 0.2rem solid white;
+    background-color: white;
+    border-radius: 1.2rem;
+    text-align: center;
+  padding: 3.6rem;
+} 
+
+
+#benifits img{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+    margin-left: 4.5rem;
+    width: 145.1rem;
+    height: 63rem;
+    border-radius: 2rem;
+}
+
+#maps h1{
+    font-size: 2.6rem;
+        color: #000;
+    font-family: 'Poppins';
+        font-weight: 500;
+        background: #fff;
+        width: auto;
+        line-height: 1;
+        text-align: center;
+        margin: 5rem 0 3rem 0;
+        padding: 10px;
+        border-left: 0.3rem solid #52009B;
+        border-right: 0.3rem solid #52009B;
+        border-bottom: 0.3rem solid #52009B;
+        border-top: 0.3rem solid #52009B;
+        box-shadow: rgba(0, 0, 0, 0.1) 0rem 2rem 2.5rem -0.5rem, rgba(0, 0, 0, 0.04) 0rem 1rem 1rem -0.5rem;
+}
+
+#maps img{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+    margin-left: 4.5rem;
+    width: 145.1rem;
+    height: 63rem;
+    border-radius: 2rem;
+    
+}
+
+
+#home img{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+    margin-left: 4.5rem;
+    width: 145.1rem;
+    height: 63rem;
+    border-radius: 2rem;
+}
+
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact1.jpg') no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3.4rem;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.9rem;
+    font-size: 1.1rem;
+}
+
+#contact h1{
+    font-size: 26px;
+        color: #000;
+    font-family: 'Poppins';
+        font-weight: 500;
+        background: #fff;
+        width: auto;
+        line-height: 1;
+        text-align: center;
+        margin: 5rem 0 3rem 0;
+        padding: 1rem;
+        border-left: 0.3rem solid #52009B;
+        border-right: 0.3rem solid #52009B;
+        border-bottom: 0.3rem solid #52009B;
+        border-top: 0.3rem solid #52009B;
+        box-shadow: rgba(0, 0, 0, 0.1) 0rem 2rem 2.5rem -0.5rem, rgba(0, 0, 0, 0.04) 0rem 1rem 1rem -0.5rem;
+}
+
+#contact{
+    background-color: rgb(224, 253, 255);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 2rem;
+    border-bottom: 1rem solid white;
+    color: white;
+}
+.sonal{
+    margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 746px;
+  cursor: pointer;
+  margin-top: -28px;
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 4px;
+}
